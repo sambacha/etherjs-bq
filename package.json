@@ -1,6 +1,6 @@
 {
   "name": "eth--bigquery",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This module repackages [ethers.js](https://github.com/ethers-io/ethers.js/) for use in BigQuery, to decode Ethereum event logs and transaction inputs.",
   "main": "print-event-topics.js",
   "bin": "dist/ethers.js",
