@@ -1,0 +1,39 @@
+{
+  "name": "eth--bigquery",
+  "version": "1.1.0",
+  "description": "This module repackages [ethers.js](https://github.com/ethers-io/ethers.js/) for use in BigQuery, to decode Ethereum event logs and transaction inputs.",
+  "main": "print-event-topics.js",
+  "bin": "dist/ethers.js",
+  "files": [
+    "print-event-topics.js",
+    "test-log-with-tuples.js",
+    "test-log.js",
+    "test-transaction.js",
+    "webpack.config.js"
+  ],
+  "dependencies": {
+    "ethers": "^5.0.19"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/etherjs-bq.git"
+  },
+  "keywords": [
+    "ethereum",
+    "big query",
+    "etherjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sambacha/etherjs-bq/issues"
+  },
+  "homepage": "https://github.com/sambacha/etherjs-bq#readme"
+}
