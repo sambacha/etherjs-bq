@@ -1,25 +1,18 @@
 {
-  "name": "eth--bigquery",
-  "version": "1.1.0",
-  "description": "This module repackages [ethers.js](https://github.com/ethers-io/ethers.js/) for use in BigQuery, to decode Ethereum event logs and transaction inputs.",
-  "main": "print-event-topics.js",
+  "name": "ethjsbiquery",
+  "version": "1.2.0",
+  "description": "ethers.js for google biquery",
+  "main": "dist/ethers.js",
   "bin": "dist/ethers.js",
-  "files": [
-    "print-event-topics.js",
-    "test-log-with-tuples.js",
-    "test-log.js",
-    "test-transaction.js",
-    "webpack.config.js"
-  ],
   "dependencies": {
-    "ethers": "^5.0.19"
+    "ethers": "5.0.32"
   },
   "devDependencies": {
-    "webpack": "^4.41.5",
+    "webpack": "^4.46.0",
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "npx webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",

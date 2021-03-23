@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    entry: './node_modules/ethers/dist/ethers.js',
+    entry: './node_modules/ethers/lib/ethers.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'ethers.js',

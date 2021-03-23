@@ -1,3 +1,4 @@
+const test = require('ava');
 const ethers = require('ethers');
 
 let abi = {
