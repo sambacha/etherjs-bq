@@ -8,7 +8,7 @@
     "ethers": "5.0.32"
   },
   "devDependencies": {
-    "webpack": "4.46.0",
+    "webpack": "5.38.1",
     "webpack-cli": "3.3.10"
   },
   "scripts": {
