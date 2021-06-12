@@ -5,7 +5,7 @@
   "main": "dist/ethers.js",
   "bin": "dist/ethers.js",
   "dependencies": {
-    "ethers": "5.0.32"
+    "ethers": "5.3.1"
   },
   "devDependencies": {
     "webpack": "4.46.0",
